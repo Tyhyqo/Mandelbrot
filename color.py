@@ -10,7 +10,7 @@ class Mand(QWidget):
         super().__init__()
         # initUI
         self.setGeometry(300, 300, 900, 600)
-        self.setWindowTitle('Серый Мандельброт')
+        self.setWindowTitle('Цветной Мандельброт')
         self.qp = QPainter()
         # Количество итераций
         self.max_iteration = 255
